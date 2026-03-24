@@ -22,6 +22,7 @@ $$
 f(x) = \beta_0  + \beta_1 x + \beta_2 x^2 + \dots + \beta_p x^p
 \tag{2}
 $$
+
 The training of the regression model will correspond to the selection of the $\beta_j$ parameters, such that the model's prediction 'fits' the observed values.\
 The selection of the optimal parameters is equivalent to the solution of the linear system of the type $\mathbf{A} \mathbf{x} = \mathbf{b}$:
 
