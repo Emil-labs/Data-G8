@@ -45,7 +45,7 @@ The key objective is to ensure that:
 * You understand the **limitations of each method** (e.g. linearity assumptions, overfitting, sensitivity to noise)
 
 > [!NOTE]
-> Several Toy datasets will be provided (check the GitHub depository), but you are free to choose your own.
+> Several Toy datasets will be provided (check the [Task 1 GithHub repository](Datasets/task_1_toy.md)), but you are free to choose your own.
 
 #### Part 2 – Real Dataset: Application and adaptation
 
@@ -68,7 +68,7 @@ In addition to the research question, you must explicitly address the following 
 * How did you assess the goodness of the proposed model? What are the pros and cons of each indicator?
 
 > [!NOTE]
-> Several datasets and examples of research question will be provided (check the GitHub depository), but you are free to choose your own and/or combine several of them. Note that it must be relevant and sufficiently complex, but not too much! Remember that the project should not require more than 40h of work per person – so avoid spending too much time deciding on your research question.
+> Several datasets and examples of research question will be provided (check the [Task 2 GithHub repository](Datasets/task_2_real.md)), but you are free to choose your own and/or combine several of them. Note that it must be relevant and sufficiently complex, but not too much! Remember that the project should not require more than 40h of work per person – so avoid spending too much time deciding on your research question.
 
 #### Bonus Part
 

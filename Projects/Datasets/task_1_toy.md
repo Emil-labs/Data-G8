@@ -55,7 +55,7 @@ The linear system admits a single solution only if the matrix $\mathbf{A}$ is in
 Simulate the trajectory of a projectile with initial velocity magnitude $v_0 = 10 \  \mathrm{m/s}$ and initial position $x_0 = 0 \ \mathrm{m}, y_0 = 2 \ \mathrm{m}$ for the time it takes to reach the ground. The launch angle $\theta$ is equal to $50 \degree$. The $x$, $y$ position as well as the velocity magnitude $v = \sqrt{v_x^2 + v_y^2}$ are tracked by a sensor which has a $1 \ \mathrm{m/s}$ uncertainty in the velocity measurement and a $0.5 \ \mathrm{m}$ uncertainty in the position measurement. This is equivalent of saying that the measured value is sampled from a normal distribution with mean equal to the true value and standard deviation equal to the experimental uncertainty. The position and velocity is tracked every $0.01 \ \mathrm{s}$.
 The sketch of the synthetic experiment is reported in Figure below.
 
-![Sketch of the virtual experiment.](Projectile_experiment.png)
+![Sketch of the virtual experiment.](img/Projectile_experiment.png)
 
 The steps to solve the proposed task are:
 
@@ -117,10 +117,10 @@ The steps to solve the proposed task are:
 1) Construct an underdamped ($c < \sqrt{4 m k}$) harmonic oscillator with your choice of characteristic frequency and starting conditions.
 2) Build a synthetic dataset by pretending that the position of the mass is tracked in time by two sensors in the $x, y$ directions. Each sensor has a 20 % uncertainty (random white noise) and the angle between the $s$ and $x$ axis is equal to $\theta = 35 \degree$, as reported in Figure below. Collect the position for $6 \ \tau$ , where $\tau = 2m/c$ is the characteristic time length. 
 
-![Sketch of the virtual experiment.](Spring_experiment.png)
+![Sketch of the virtual experiment.](img/Spring_experiment.png)
 
-3) Apply the POD and DFT algorithms to the data matrix $\mathbf{X}$ containing the $x$ and $y$ positions. To perform the POD and DFT, you can use the standard python libraries (__numpy.linalg.svd()__ for the SVD algorithm and __numpy.fft.fft()__ to perform the DFT). Or, you can use the __modulo-vki__ package that you can find [here](https://github.com/mendezVKI/MODULO), along with the instruction for the installation and the documentation.
-4) Compare the POD and DFT results. 
+1) Apply the POD and DFT algorithms to the data matrix $\mathbf{X}$ containing the $x$ and $y$ positions. To perform the POD and DFT, you can use the standard python libraries (__numpy.linalg.svd()__ for the SVD algorithm and __numpy.fft.fft()__ to perform the DFT). Or, you can use the __modulo-vki__ package that you can find [here](https://github.com/mendezVKI/MODULO), along with the instruction for the installation and the documentation.
+2) Compare the POD and DFT results. 
 
 [1] Berkooz, P Holmes, and J L Lumley. The proper orthogonal decomposition in the analysis of turbulent flows. Annual Review of Fluid Mechanics, 25(1):539–575, 1993.\
 [2] Julius O. Smith. Mathematics of the Discrete Fourier Transform (DFT). W3K Publishing, http://www.w3k.org/books/, 2007.
@@ -129,4 +129,4 @@ The steps to solve the proposed task are:
 
 ## Clustering
 
-Uploaded soon.
+Coming soon.
