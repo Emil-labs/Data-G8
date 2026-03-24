@@ -28,8 +28,13 @@ During the exercise sessions, we strongly advise you against using generative AI
 For the project, it would be best to use generative AI to help you write the code rather than to build everything from scratch.
 
 ## Projects for the exams
-We will provide you the projects as soon as possible. You can also suggest your own project (it should cover at least a couple of major ML techniques).
+Project assignments are available [here](Projects/assignments.md). Read carefully the assignments.\
+You will find the proposed tasks, datasets and research questions [here](Projects/Datasets/). Please note that you can also suggest your own project, provided that it includes at least two major machine‑learning techniques seen during the course.\
 You can ask for the solution of future exercise sessions if you need it for the project.
+
+> [!WARNING]
+> First deadline: **6 April**:\
+> You must send to alberto.procacci@ulb.be **by April 6th a half-page document including: the group members, your chosen toy dataset, the real-world dataset, and your research question for approval.** This first deadline is mandatory but will not be part of the evaluation per se.
 
 ## Resources to help you with Python:
 - [Google Colab tutorial](https://www.youtube.com/watch?v=1MqYi-mlBDA) 
@@ -40,3 +45,5 @@ You can ask for the solution of future exercise sessions if you need it for the 
 ## Exercises:
 
 - [Principal component analysis (PCA)](PCA/)
+- [Clustering](Clustering/)
+- [Regression](Regression/)
