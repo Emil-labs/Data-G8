@@ -49,6 +49,33 @@ $$
 \tag{3}
 $$
 
+The selection of the optimal parameters is equivalent to the solution of the linear system of the type $\mathbf{A}\mathbf{x} = \mathbf{b}$:
+
+$$
+\begin{bmatrix}
+    1 & x_1 & x_1^2 & \dots & x_1^p \\
+    1 & x_2 & x_2^2 & \dots & x_2^p \\
+    \vdots & \vdots & \ddots & \vdots \\
+    1 & x_n & x_n^2 & \dots & x_n^p \\
+\end{bmatrix}
+\begin{bmatrix}
+    \beta_0 \\
+    \beta_1 \\
+    \vdots \\
+    \beta_p
+\end{bmatrix}
+=
+\begin{bmatrix}
+    y_1 \\
+    y_2 \\
+    \vdots \\
+    y_n
+\end{bmatrix}
+\tag{3}
+$$
+
+The linear system admits a single solution only if the matrix $\mathbf{A}$ is invertible.
+
 The linear system admits a single solution only if the matrix $\mathbf{A}$ is invertible. This requires that $n = p$ and that $\mathbf{A}$ is a full rank matrix. In most cases, this requirement is not fullfilled and the system can admit no solutions (overdetermined system) or infinite solutions (undertermined system). In this case, the best combination of parameters $\beta_i$ is found following an optimisation process, where the objective is to minimise a loss function. The difference between OLS, Lasso and Ridge lies in the formulation of the loss function.
 
 ### Proposed task
