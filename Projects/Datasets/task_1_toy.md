@@ -28,22 +28,21 @@ The selection of the optimal parameters is equivalent to the solution of the lin
 
 $$
 \begin{bmatrix}
-    1 & x_1 & x^2_1 & \dots & x^p_1 \\\
-    1 & x_2 & x^2_2 & \dots & x^p_2 \\\
-    \vdots & \vdots & \ddots & \vdots \\\
-    1 & x_n & x^2_n & \dots & x^p_n \\\
+    1 & x_1 & x^2_1 & \dots & x^p_1 \\
+    1 & x_2 & x^2_2 & \dots & x^p_2 \\
+    \vdots & \vdots & \ddots & \vdots \\
+    1 & x_n & x^2_n & \dots & x^p_n
 \end{bmatrix}
 \begin{bmatrix}
-    \beta_0 \\\
-    \beta_1 \\\
-    \vdots \\\
+    \beta_0 \\
+    \beta_1 \\
+    \vdots \\
     \beta_p
-\end{bmatrix}
-=
+\end{bmatrix} =
 \begin{bmatrix}
-    y_1 \\\
-    y_2 \\\
-    \vdots \\\
+    y_1 \\
+    y_2 \\
+    \vdots \\
     y_n
 \end{bmatrix}
 \tag{3}
