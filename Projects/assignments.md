@@ -106,6 +106,12 @@ If you encounter problems in the download of the data or installation of the lib
 
 [1] Trevor Hastie, Robert Tibshirani, and Jerome Friedman. The Elements of Statistical Learning. Springer Series in Statistics. Springer New York Inc., New York, NY, USA, 2009.
 
+### Assessment criteria
+
+* **Clarity of presentation: 40%**, for a presentation of 20 minutes, showing the main steps of the work and how each member of the group contributed to the case study.
+* **Understating of the theoretical concepts: 30%**, measuring the ability of making connections between the practical work and the theory.
+* **Critical assessment: 30%**, measuring the ability to justify the results taking into account the potential and limitations of the approaches used
+
 ## Sustainable transport
 See the guidelines from your section representative.
 
