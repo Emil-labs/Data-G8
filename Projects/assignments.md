@@ -2,7 +2,7 @@
 
 ## Energy - Aeronautics - Robotics
 
-### Forwards
+### Foreword
 
 The project should be done by a **group of 3 to maximum of 4**. The expected workload per student is approximately one week of full-time work (38h) - including the project itself, writing the report and preparing for the defence.\
 You should submit a full report describing the dataset and your initial observations, the method(s) chosen to analyse it and/or build a model and your results along with your opinion about their quality and relevance. It should not exceed **6,000 words** (including abstract and reference list).\
