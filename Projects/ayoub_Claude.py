@@ -55,7 +55,7 @@ torch.manual_seed(42)
 print("--> CHAPTER 2: Loading and Cleaning Data...")
 
 # Load dataset
-file_path = r"c:\Users\Hamam Ayoub\Downloads\Metro_Interstate_Traffic_Volume.csv"
+file_path = "Metro_Interstate_Traffic_Volume.csv"
 df = pd.read_csv(file_path)
 
 # Convert string dates to datetime objects
